@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin :0;
+}
+
+header h1{
+	width:600px;
+	margin-left:45%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#wrap{
+	width : 800px;
+	margin:auto;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+#wrap tr th{
+	min-width:100px;
+	background-color:yellow;
+	border:1px solid black;
+}
+
+#wrap tr td{
+	padding:10px;
+	border:1px solid black;
+}

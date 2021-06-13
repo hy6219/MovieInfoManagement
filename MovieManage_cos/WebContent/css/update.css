@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin :0;
+}
+
+header h1{
+	width:600px;
+	margin-left:45%;
+	margin-top :20px;
+	margin-bottom:20px;
+}
+
+#outer{
+	width : 800px;
+	margin : auto;
+	border : 1px solid black;
+	border-collapse:collapse;
+}
+
+#outer tr td{
+	border:1px solid black;
+}
+#outer tr td img{
+	width:300px;
+}
+#inner{
+	border-collapse:collapse;
+}
+
+#inner tr th{
+	min-width:100px;
+	border   : 1px solid black;
+}
+#inner tr td{
+	border: 1px solid black;
+}
+
+#btn{
+	text-align:center;
+	margin-top:20px;
+}

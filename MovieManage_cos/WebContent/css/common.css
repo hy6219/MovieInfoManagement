@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin :0;
+}
+
+header h1{
+	width:600px;
+	margin-left:45%;
+}
+
+#wrap{
+	border: 1px solid salmon;
+	border-collapse:collapse;
+	width:800px;
+	margin:20px auto;
+	text-align:center;
+}
+
+#wrap tr:hover{
+	
+	background-color:yellow;
+}
+
+#wrap tr td[colspan="6"]{
+	text-align:right;
+	background-color:yellowgreen;
+}
+
+table#wrap tr th{
+	border: 1px solid salmon;
+	background-color:yellowgreen;
+}
+
+table#wrap tr td{
+	border: 1px solid salmon;
+	min-width: 200px;
+}
+
+table#wrap tr td a{
+	text-decoration:none;
+	color:black;
+}
+
+table#wrap tr td a:hover{
+	text-decoration:underline;
+	color:green;
+	font-weight:bold;
+}
